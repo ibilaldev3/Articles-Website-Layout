@@ -1,0 +1,146 @@
+ /* universal selector */
+ * {
+    margin: 0;
+    padding: 0;
+ }
+ .container {
+    width: 1170px;
+    margin: 0 auto;
+    outline: 2px solid greenyellow;
+    z-index: 11;
+ }
+
+ .clear-both {
+    clear: both;
+ }
+ /* css start here */
+ .header {
+    background-color:#6f7875;
+    height: 130px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+.slider {
+    background-color: #eee8aa;
+    height: 270px;
+    margin-top: 130px;
+}
+.spacer {
+    background-color: #f88bf8;
+    height: 60px;
+}
+/* section-1 there are 3 article */
+.section-1 {
+    background-color: #add9e6;
+    /* height: 300px; */
+}
+.sec-1-article {
+    background-color: #ae7ac5;
+    height: 280px;
+    width: 32.196%;
+    display: inline-block;
+    margin: 8px;
+}
+
+/* Remove left and right margin from first and last elements resp. */
+.section-1 .container .sec-1-article:first-of-type {
+    margin-left: 0px;
+}
+.section-1 .container .sec-1-article:last-of-type {
+    margin-right: 0px;
+}
+/*############ Section 1 CSS Ends ############ */
+
+/* section-2 there are 4 article */
+.section-2 {
+    background-color: #fedab8;
+    /* height: 200px; */
+}
+.sec-2-article {
+    background-color: #ae7ac5;
+    height: 180px;
+    width: 23.459%;
+    display: inline-block;
+    margin: 10px;
+}
+
+/* remove left and right margin from first and last element */
+.section-2 .container .sec-2-article:first-of-type {
+    margin-left: 0px;
+}
+.section-2 .container .sec-2-article:last-of-type {
+    margin-right: 0px;
+}
+/* ############# Section 2 CSS Ends########## */
+
+/* Section 3 - 1 Article and 2 Sub-Articles */
+.section-3 {
+    background-color: #dc7733;
+    height: 280px;
+}
+
+.sec-3-article {
+    background-color:  #ae7ac5;
+    margin: 10px;
+}
+
+.sec-3-article-1 {
+    width: 60%;
+    float: left !important;
+    height: 260px;
+}
+
+.sec-3-article-2 {
+    width: 34.532%;
+    float: right !important;
+    background-color: #53cff5;
+}
+
+.section-3 .container .sec-3-article-1:first-of-type {
+    margin-left: 0px;
+}
+
+.section-3 .container .sec-3-article-2 {
+    margin-right: 0px;
+}
+/* 2 Sub-Articles */
+.sec-3-sub-article {
+    height: 115px;
+    background-color: #ae7ac5;
+    margin: 10px;
+}
+
+/* remove left and right margin from first and last element */
+.section-3 .container .sec-3-article .sec-3-article-1 .sec-3-article-2 .sec-3-sub-article:first-of-type {
+    margin: 0px;
+}
+/* ############ section 3 CSS Ends */
+.section-4 {
+    background-color: #add9e6;
+    /* height: 300px; */
+}
+.sec-4-article {
+    background-color: #ae7ac5;
+    height: 280px;
+    width: 32.1966%;
+    display: inline-block;
+    margin: 8px;
+}
+
+
+/* Remove left and right margin from first and last elements resp. */
+.section-4 .container .sec-4-article:first-of-type {
+    margin-left: 0px;
+}
+.section-4 .container .sec-4-article:last-of-type {
+    margin-right: 0px;
+}
+/* ########## Section 4 CSS Ends ########## */
+
+.section-5 {
+    background-color: #6f7875;
+    height: 45px;
+    padding: 20px;
+}
+
